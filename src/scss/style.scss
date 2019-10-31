@@ -1,0 +1,23 @@
+/*! `Custom` Bootstrap 4 theme */
+
+@import "node_modules/fontawesome-free/scss/fontawesome.scss";
+@import url(https://fonts.googleapis.com/css?family=Lato:200,300,400,700);
+$font-family-base:Lato;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700);
+$headings-font-family:Montserrat;
+
+$enable-responsive-font-sizes: true;
+$enable-grid-classes:true;
+$primary:#eceeec;
+$secondary:#def3ff;
+$success:#3e4d59;
+$danger:#cc330d;
+$info:#1d2f94;
+$warning:#a8f5ff;
+$light:#eceeec;
+$dark:#101213;
+$border-width:1px;
+$body-bg: $dark;
+$body-color: $light;
+// Add SASS theme customizations here..
+@import "node_modules/bootstrap/scss/bootstrap";
