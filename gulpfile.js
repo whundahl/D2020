@@ -10,6 +10,12 @@ gulp.task('sass', function() {
         .pipe(browserSync.stream());
 });
 
+// Move the Assets and Icons into the assets folder 
+gulp.task('icons', function() {
+    return gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*')
+        .pipe(gulp.dest(dist+'/assets/webfonts/'));
+});
+
 // Move the javascript files into our /src/js folder
 gulp.task('js', function() {
     return gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js',

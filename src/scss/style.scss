@@ -1,3 +1,5 @@
+
+
 /*! `Custom` Bootstrap 4 theme */
 @import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:200,300,400,700);
@@ -10,14 +12,17 @@ $enable-grid-classes:true;
 $primary:#eceeec;
 $secondary:#def3ff;
 $success:#3e4d59;
-$danger:#cc330d;
-$info:#1d2f94;
-$warning:#a8f5ff;
+$danger:rgba(244, 67, 54, 0.7);
+$info:#0a24b8;
+$warning:#9c1c7c;
 $light:#eceeec;
 $dark:#101213;
 $border-width:1px;
 $body-bg: $dark;
 $body-color: $light;
+
+
 // Add SASS theme customizations here..
 @import "node_modules/bootstrap/scss/bootstrap";
+
 
